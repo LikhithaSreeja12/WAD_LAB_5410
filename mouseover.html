@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> how to assign an "onmouseenter" and "onmouseleave" </p>
+
+<h1 id="demo" onmouseenter="mouseEnter()" onmouseleave="mouseLeave()">Mouse over me</h1>
+
+<script>
+function mouseEnter() {
+  document.getElementById("demo").style.color = "sky blue";
+}
+
+function mouseLeave() {
+  document.getElementById("demo").style.color = "orange";
+}
+</script>
+
+</body>
+</html>
